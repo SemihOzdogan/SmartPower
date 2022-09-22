@@ -1425,7 +1425,7 @@ export default function App() {
                 <Drawer.Screen name="Begin" component={Begin} options={{ gestureEnabled: false }} />
                 <Drawer.Screen name="Login" component={Login} options={{ gestureEnabled: false }} />
                 <Drawer.Screen name="OneSignal" component={OneSignal} options={{ gestureEnabled: false }} />
-                <Drawer.Screen name="SignUp" component={SignUp} />
+                <Drawer.Screen name="SignUp" component={SignUp} options={{ gestureEnabled: false }} />
                 <Drawer.Screen name="Home" component={Home} />
                 <Drawer.Screen name="Modems" component={Modems} />
                 <Drawer.Screen name="Devices" component={Devices} />
